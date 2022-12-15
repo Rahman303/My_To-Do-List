@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=La+Belle+Aurore&display=swap');
+body{
+   background-image: url(https://live.staticflickr.com/65535/49896451033_bf06cc1a96_b.jpg);
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.header{
+   display: flex;
+   /* text-align: center; */
+   flex-direction: column;
+   padding-top: 80px;
+   padding-left: 5%;
+   font-family: 'Fjalla One', sans-cursive;
+}
+#text{
+   font-size: 30px;
+}
+.todo-form{
+   outline:none;
+   border:none;
+}
+p{
+   font-size: 30px;
+   font-family: 'La Belle Aurore', cursive;
+}
+.form-item{
+   /* position: relative; */
+   border: 0.1px solid rgba(86, 79, 79, 0);
+   background-color: rgba(255, 255, 255, 0);
+   border-radius: 5px;
+   outline:none;
+   border:none;
+}
+
+.todo{
+   padding-left: 5%;
+}
+.todo-container {
+   display: flex;
+   /* justify-content: center;
+   align-items: center; */
+   width: 46%;
+   padding-left: 1%;
+}
+
+.todo-siyahisi {
+   list-style: none;
+   min-width:50%;
+   width: 10%;
+}
+
+.todo-item {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0.5rem;
+   font-size: 1.1rem;
+   font-weight: 400;
+   background-color: rgba(255, 255, 255, 0);
+   transition: .5s ease-in-out;
+   padding-left: 3%;
+}
+
+.todo-tanitim {
+   flex: 1;
+}
+
+.todo-btn {
+   outline:none;
+   border:none;
+   /* font-size: 2.4rem; */
+   /* padding: 0.5rem; */
+   background: rgba(255, 255, 255, 0);
+}
+.todo-btn:hover{
+   transition: 0.3s;
+   transform: scale(1.02);
+}
+
+.todo-done {
+   text-decoration: line-through;
+   opacity: 0.5;
+}
+
+.delete{
+   transition: 0.3s;
+   /* transform:scale(0); */
+   display: none;
+}
+
+.fa {
+   pointer-events: none;
+}
